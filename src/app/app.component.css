@@ -1,0 +1,8 @@
+.card {
+    overflow-y: scroll;
+    height: 400px;
+}
+
+.acolor {
+    color: white;
+}

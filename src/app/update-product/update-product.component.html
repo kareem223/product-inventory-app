@@ -1,0 +1,31 @@
+<h3>Update Product</h3>
+<div style="width: 400px;">
+  <form (ngSubmit)="onSubmit()">
+    <div class="form-group">
+      <label for="name">Product Id</label>
+      <input type="text" class="form-control" id="productId" required [(ngModel)]="product.productId" name="productId">
+    </div>
+
+    <div class="form-group">
+      <label for="name">Product Name</label>
+      <input type="text" class="form-control" id="productName" required [(ngModel)]="product.productName" name="productName">
+    </div>
+
+    <div class="form-group">
+      <label for="name">Category</label>
+      <input type="text" class="form-control" id="category" required [(ngModel)]="product.category" name="category">
+    </div>
+
+    <div class="form-group">
+      <label for="name">Description</label>
+      <input type="text" class="form-control" id="description" required [(ngModel)]="product.description" name="description">
+    </div>
+
+    <div class="form-group">
+      <label for="name">Units</label>
+      <input type="number" class="form-control" id="units" required [(ngModel)]="product.units" name="units">
+    </div>
+
+    <button type="submit" class="btn btn-success">Submit</button>
+  </form>
+</div>
